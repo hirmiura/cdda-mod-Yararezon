@@ -1,59 +1,59 @@
 # cdda-mod-Yararezon
-[Cataclysm: Dark Days Ahead](http://www.cataclysmdda.com/) �Ɍl�I�ɂ悭�g�����ς��W�߂����̂ł��B
+[Cataclysm: Dark Days Ahead](http://www.cataclysmdda.com/) に個人的によく使う改変を集めたものです。
 
-[�J���� 2021-09-15-0006](https://github.com/CleverRaven/Cataclysm-DDA/releases/tag/cdda-experimental-2021-09-15-0006)
-�Ō��؂��Ă��܂��B
-
-
-## �C���X�g�[��
-yararezon_mod��yararezon_preset��2��CDDA��data/mods�z���ɒu���Ă��������B
-
-�J���ł��g�p���Ă��ĕp�ɂɍX�V������悤�ł���΁A�ʂ̏ꏊ�ɂ܂Ƃ߂Ēu���Ă����āA
-�V���{���b�N�����N��W�����N�V������\��̂��y�ł����ł��B
+[開発版 2021-09-15-0006](https://github.com/CleverRaven/Cataclysm-DDA/releases/tag/cdda-experimental-2021-09-15-0006)
+で検証しています。
 
 
-## �ڍ�
+## インストール
+yararezon_modとyararezon_presetの2つをCDDAのdata/mods配下に置いてください。
+
+開発版を使用していて頻繁に更新をするようであれば、別の場所にまとめて置いておいて、
+シンボリックリンクやジャンクションを貼るのが楽でいいです。
+
+
+## 詳細
 
 ### [yararezon_mod](yararezon_mod)
-�l�I�ɂ悭�g�����ς��W�߂�MOD�ł��B
-�ڍׂ�[Readme](yararezon_mod/Readme.md)��ǂ�ł��������B
+個人的によく使う改変を集めたMODです。
+詳細は[Readme](yararezon_mod/Readme.md)を読んでください。
 
 
 ### [yararezon_preset](yararezon_preset)
-�ꊇ�ݒ肵�Ă����v���Z�b�g�ł��B
-Mod�̑I�����ʓ|�������̂ŁA�����I�Ԃƈˑ��֌W�ňꊇ�ݒ肵�Ă���y���ł��܂��B
+一括設定してくれるプリセットです。
+Modの選択が面倒くさいので、これを選ぶと依存関係で一括設定してくれ楽ができます。
 
-�Ȃ��Ă��悢�ł��B
+なくてもよいです。
 
 
 ### [src](src)
-�t�@�C�������p�̃X�N���v�g������܂��B
+ファイル生成用のスクリプトがあります。
 
 
 ### [tool](tool)
-�c�[���u����ł��B
+ツール置き場です。
 
-json_formatter.exe���u���Ă���܂��B�����CDDA�{�̂ɓ�������Ă�����̂Ɠ����ł��B
+json_formatter.exeが置いてあります。これはCDDA本体に同梱されているものと同じです。
 
 
-# ���C�Z���X
-MIT���C�Z���X�Ȃ̂ōD���Ɏg���Ă��������B
+# ライセンス
+MITライセンスなので好きに使ってください。
 
-�� tool/json_formatter.exe�͖{�Ƃ̃��C�Z���X�ɏ����܂��B
+※ tool/json_formatter.exeは本家のライセンスに準じます。
 
-## ��
+## 訳文
 https://licenses.opensource.jp/MIT/MIT.html
 
 Copyright (c) 2021 hirmiura
 
-�ȉ��ɒ�߂�����ɏ]���A�{�\�t�g�E�F�A����ъ֘A�����̃t�@�C���i�ȉ��u�\�t�g�E�F�A�v�j�̕������擾���邷�ׂĂ̐l�ɑ΂��A�\�t�g�E�F�A�𖳐����Ɉ������Ƃ𖳏��ŋ����܂��B����ɂ́A�\�t�g�E�F�A�̕������g�p�A���ʁA�ύX�A�����A�f�ځA�Еz�A�T�u���C�Z���X�A�����/�܂��͔̔����錠���A����у\�t�g�E�F�A��񋟂��鑊��ɓ������Ƃ������錠�����������Ɋ܂܂�܂��B
+以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル（以下「ソフトウェア」）の複製を取得するすべての人に対し、ソフトウェアを無制限に扱うことを無償で許可します。これには、ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する権利、およびソフトウェアを提供する相手に同じことを許可する権利も無制限に含まれます。
 
-��L�̒��쌠�\������і{�����\�����A�\�t�g�E�F�A�̂��ׂĂ̕����܂��͏d�v�ȕ����ɋL�ڂ�����̂Ƃ��܂��B
+上記の著作権表示および本許諾表示を、ソフトウェアのすべての複製または重要な部分に記載するものとします。
 
-�\�t�g�E�F�A�́u����̂܂܁v�ŁA�����ł��邩�Öقł��邩���킸�A����̕ۏ؂��Ȃ��񋟂���܂��B�����ł����ۏ؂Ƃ́A���i���A����̖ړI�ւ̓K�����A����ь�����N�Q�ɂ��Ă̕ۏ؂��܂݂܂����A����Ɍ��肳�����̂ł͂���܂���B ��҂܂��͒��쌠�҂́A�_��s�ׁA�s�@�s�ׁA�܂��͂���ȊO�ł��낤�ƁA�\�t�g�E�F�A�ɋN���܂��͊֘A���A���邢�̓\�t�g�E�F�A�̎g�p�܂��͂��̑��̈����ɂ���Đ������؂̐����A���Q�A���̑��̋`���ɂ��ĉ���̐ӔC������Ȃ����̂Ƃ��܂��B
+ソフトウェアは「現状のまま」で、明示であるか暗黙であるかを問わず、何らの保証もなく提供されます。ここでいう保証とは、商品性、特定の目的への適合性、および権利非侵害についての保証も含みますが、それに限定されるものではありません。 作者または著作権者は、契約行為、不法行為、またはそれ以外であろうと、ソフトウェアに起因または関連し、あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、損害、その他の義務について何らの責任も負わないものとします。
 
 
-## ����
+## 原文
 https://opensource.org/licenses/mit-license.php
 
 Copyright 2021 hirmiura

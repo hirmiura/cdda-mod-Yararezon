@@ -7,7 +7,7 @@ CDDA_JSON_FORMATTER:=tool/json_formatter.exe
 all: generate format
 
 
-# JSON¶¬
+# JSONç”Ÿæˆ
 generate: generate-olight generate-hood
 
 generate-olight: yararezon_mod/const_floor_olight.json
@@ -17,7 +17,7 @@ generate-hood: yararezon_mod/makeshift_hood.json
 	src/generate_makeshift_hood.py | $(CDDA_JSON_FORMATTER) > $<
 
 
-# JSON®Œ`
+# JSONæ•´å½¢
 format lint: format-mod format-preset
 
 format-mod:
