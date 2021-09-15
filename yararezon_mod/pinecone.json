@@ -1,0 +1,10 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "pinecone",
+    "name": { "str": "pinecone" },
+    "copy-from": "pinecone",
+    "material": [ "wood" ],
+    "extend": { "flags": [ "FIREWOOD" ] }
+  }
+]

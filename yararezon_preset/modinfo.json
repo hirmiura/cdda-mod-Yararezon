@@ -1,0 +1,25 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "yararezon_preset",
+    "name": "Yararezon's Mod Preset",
+    "authors": [ "hirmiura" ],
+    "description": "個人的な環境一括設定",
+    "category": "rebalance",
+    "dependencies": [
+      "dda",
+      "aftershock",
+      "blazeindustries",
+      "crt_expansion",
+      "magiclysm",
+      "package_bionic_professions",
+      "DinoMod",
+      "No_Rail_Stations",
+      "no_npc_food",
+      "no_fungal_growth",
+      "speedydex",
+      "cbm_slots",
+      "yararezon_mod"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "shotcestus",
+    "copy-from": "shotcestus",
+    "type": "GUN",
+    "name": { "str": "shotcestus", "str_pl": "shotcestuses" },
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 2 } } ]
+  }
+]

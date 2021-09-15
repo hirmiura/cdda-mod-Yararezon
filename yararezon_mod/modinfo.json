@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "yararezon_mod",
+    "name": "Yararezon's Mod",
+    "authors": [ "hirmiura" ],
+    "description": "個人的な改変",
+    "category": "rebalance",
+    "dependencies": [ "dda", "magiclysm" ]
+  }
+]
