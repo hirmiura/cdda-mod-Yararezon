@@ -30,7 +30,7 @@ for bid, name, enc in compos:
     hood = {
         "id": f"{hood_prefix}_{bid}",
         "type": "ARMOR",
-        "copy-from": "sheet",
+        "copy-from": bid,
         "name": { "str": f"簡易フード({name})" },
         "description": f"{name}で作った簡易フードです。嵩張りますが暖かいです。",
         "armor": [

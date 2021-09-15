@@ -22,7 +22,7 @@
   {
     "id": "makeshift_hood_blanket",
     "type": "ARMOR",
-    "copy-from": "sheet",
+    "copy-from": "blanket",
     "name": { "str": "簡易フード(ブランケット)" },
     "description": "ブランケットで作った簡易フードです。嵩張りますが暖かいです。",
     "armor": [ { "encumbrance": 35, "coverage": 100, "covers": [ "head", "mouth" ] } ]
@@ -42,7 +42,7 @@
   {
     "id": "makeshift_hood_down_blanket",
     "type": "ARMOR",
-    "copy-from": "sheet",
+    "copy-from": "down_blanket",
     "name": { "str": "簡易フード(ブランケット(羽毛))" },
     "description": "ブランケット(羽毛)で作った簡易フードです。嵩張りますが暖かいです。",
     "armor": [ { "encumbrance": 45, "coverage": 100, "covers": [ "head", "mouth" ] } ]
@@ -62,7 +62,7 @@
   {
     "id": "makeshift_hood_fur_blanket",
     "type": "ARMOR",
-    "copy-from": "sheet",
+    "copy-from": "fur_blanket",
     "name": { "str": "簡易フード(ブランケット(毛皮))" },
     "description": "ブランケット(毛皮)で作った簡易フードです。嵩張りますが暖かいです。",
     "armor": [ { "encumbrance": 55, "coverage": 100, "covers": [ "head", "mouth" ] } ]
@@ -82,7 +82,7 @@
   {
     "id": "makeshift_hood_quilt",
     "type": "ARMOR",
-    "copy-from": "sheet",
+    "copy-from": "quilt",
     "name": { "str": "簡易フード(キルトケット)" },
     "description": "キルトケットで作った簡易フードです。嵩張りますが暖かいです。",
     "armor": [ { "encumbrance": 40, "coverage": 100, "covers": [ "head", "mouth" ] } ]
@@ -102,7 +102,7 @@
   {
     "id": "makeshift_hood_quilt_patchwork",
     "type": "ARMOR",
-    "copy-from": "sheet",
+    "copy-from": "quilt_patchwork",
     "name": { "str": "簡易フード(キルトケット(羊毛))" },
     "description": "キルトケット(羊毛)で作った簡易フードです。嵩張りますが暖かいです。",
     "armor": [ { "encumbrance": 50, "coverage": 100, "covers": [ "head", "mouth" ] } ]
