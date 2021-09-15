@@ -50,7 +50,7 @@ for bid, name, enc in compos:
         "subcategory": "CSC_ARMOR_HEAD",
         "skill_used": "survival",
         "difficulty": 0,
-        "time": "5 m",
+        "time": "3 m",
         "reversible": True,
         "autolearn": True,
         "components": [

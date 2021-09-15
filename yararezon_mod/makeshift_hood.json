@@ -14,7 +14,7 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "survival",
     "difficulty": 0,
-    "time": "5 m",
+    "time": "3 m",
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "sheet", 1 ] ] ]
@@ -34,7 +34,7 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "survival",
     "difficulty": 0,
-    "time": "5 m",
+    "time": "3 m",
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "blanket", 1 ] ] ]
@@ -54,7 +54,7 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "survival",
     "difficulty": 0,
-    "time": "5 m",
+    "time": "3 m",
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "down_blanket", 1 ] ] ]
@@ -74,7 +74,7 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "survival",
     "difficulty": 0,
-    "time": "5 m",
+    "time": "3 m",
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "fur_blanket", 1 ] ] ]
@@ -94,7 +94,7 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "survival",
     "difficulty": 0,
-    "time": "5 m",
+    "time": "3 m",
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "quilt", 1 ] ] ]
@@ -114,7 +114,7 @@
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "survival",
     "difficulty": 0,
-    "time": "5 m",
+    "time": "3 m",
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "quilt_patchwork", 1 ] ] ]
