@@ -54,7 +54,7 @@ for bid, name, enc in compos:
         "reversible": True,
         "autolearn": True,
         "components": [
-            [ [ f"{bid}", 1 ] ]
+            [ [ bid, 1 ] ]
         ]
     }
     data.append(recipe)
