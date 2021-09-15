@@ -8,8 +8,13 @@ all: generate format
 
 
 # JSON¶¬
-generate: yararezon_mod/const_floor_olight.json
-	./src/generate_floor_olight.py | $(CDDA_JSON_FORMATTER) > $<
+generate: generate-olight generate-hood
+
+generate-olight: yararezon_mod/const_floor_olight.json
+	src/generate_floor_olight.py | $(CDDA_JSON_FORMATTER) > $<
+
+generate-hood: yararezon_mod/makeshift_hood.json
+	src/generate_makeshift_hood.py | $(CDDA_JSON_FORMATTER) > $<
 
 
 # JSON®Œ`

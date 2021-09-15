@@ -17,6 +17,18 @@
   - リノリウム (t_linoleum_gray_floor_olight)
 
 
+## [makeshift_hood.json](makeshift_hood.json)
+* シーツ等を使った簡易フードとレシピを追加します。
+* 低温研究所スタートで頭が凍傷になっても頭に布を巻くことをしない＠さん。
+* 暖かさと動作制限は元のままです。
+  - シーツ (sheet)
+  - ブランケット (blanket)
+  - ブランケット(羽毛) (down_blanket)
+  - ブランケット(毛皮) (fur_blanket)
+  - キルトケット (quilt)
+  - キルトケット(羊毛) (quilt_patchwork)
+
+
 ## [no_zombie_revivification.json](no_zombie_revivification.json)
 * ゾンビが復活しないようにします。
 
