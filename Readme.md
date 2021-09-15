@@ -1,7 +1,7 @@
 # cdda-mod-Yararezon
 [Cataclysm: Dark Days Ahead](http://www.cataclysmdda.com/) に個人的によく使う改変を集めたものです。
 
-[開発版 2021-09-14-0010](https://github.com/CleverRaven/Cataclysm-DDA/releases/tag/cdda-experimental-2021-09-14-0010)
+[開発版 2021-09-15-0006](https://github.com/CleverRaven/Cataclysm-DDA/releases/tag/cdda-experimental-2021-09-15-0006)
 で検証しています。
 
 
