@@ -3,7 +3,6 @@
 import sys
 import io
 import json
-import subprocess
 
 
 # MSYS2での文字化け対策
@@ -31,15 +30,15 @@ for bid, name, enc in compos:
         "id": f"{hood_prefix}_{bid}",
         "type": "ARMOR",
         "copy-from": bid,
-        "name": { "str": f"簡易フード({name})" },
+        "name": {"str": f"簡易フード({name})"},
         "description": f"{name}で作った簡易フードです。嵩張りますが暖かいです。",
         "armor": [
             {
-            "encumbrance": enc,
-            "coverage": 100,
-            "covers": [ "head", "mouth" ]
+                "encumbrance": enc,
+                "coverage": 100,
+                "covers": ["head", "mouth"]
             }
-    ]
+        ]
     }
     data.append(hood)
     # レシピ
@@ -54,7 +53,7 @@ for bid, name, enc in compos:
         "reversible": True,
         "autolearn": True,
         "components": [
-            [ [ bid, 1 ] ]
+            [[bid, 1]]
         ]
     }
     data.append(recipe)

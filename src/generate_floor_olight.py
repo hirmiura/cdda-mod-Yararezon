@@ -3,7 +3,6 @@
 import sys
 import io
 import json
-import subprocess
 
 
 # MSYS2での文字化け対策
@@ -57,8 +56,8 @@ for preid, postid, fname in floors:
             [["soldering_iron", 10], ["toolset", 10]]
         ],
         "qualities": [
-            [{ "id": "HAMMER", "level": 2 }],
-            [{ "id": "SCREW", "level": 1 }]
+            [{"id": "HAMMER", "level": 2}],
+            [{"id": "SCREW", "level": 1}]
         ],
         "components": [
             [["betavoltaic", 2]],
@@ -86,8 +85,8 @@ for preid, postid, fname in floors:
             [["soldering_iron", 10], ["toolset", 10]]
         ],
         "qualities": [
-            [{ "id": "HAMMER", "level": 2 }],
-            [{ "id": "SCREW", "level": 1 }]
+            [{"id": "HAMMER", "level": 2}],
+            [{"id": "SCREW", "level": 1}]
         ],
         "byproducts": [
             {"item": "betavoltaic", "count": [2, 2]},
@@ -105,6 +104,3 @@ for preid, postid, fname in floors:
 # ダンプ
 json_text = json.dumps(data, ensure_ascii=False)
 print(json_text)
-
-# 整形
-#subprocess.run('tool/json_formatter.exe', input=json_text, encoding='utf-8')
