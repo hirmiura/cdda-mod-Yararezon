@@ -1,7 +1,7 @@
 #!/usr/bin/env -S python
 # -*- coding: utf-8 -*-
-import os
 import gettext
+import os
 
 domain = "cataclysm-dda"
 localedir = "lang/mo"

@@ -1,9 +1,8 @@
 #!/usr/bin/env -S python
 # -*- coding: utf-8 -*-
-import sys
 import io
 import json
-
+import sys
 
 # MSYS2での文字化け対策
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
