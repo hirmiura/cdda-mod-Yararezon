@@ -10,7 +10,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 hood_prefix = 'makeshift_hood'
 
-#    BaseID            Name                    Enc
+#    BaseID              Name                    Enc
 compos = [
     ['sheet',            'シーツ',               15],
     ['blanket',          'ブランケット',         35],
