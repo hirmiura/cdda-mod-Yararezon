@@ -4,26 +4,35 @@ import io
 import json
 import sys
 
+from cdda_gettext import gt
+
 # MSYS2での文字化け対策
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 
 hood_prefix = 'makeshift_hood'
 
-#    BaseID              Name                    Enc
+# フードの素材のIDリスト
 compos = [
-    ['sheet',            'シーツ',               15],
-    ['blanket',          'ブランケット',         35],
-    ['down_blanket',     'ブランケット(羽毛)',   45],
-    ['fur_blanket',      'ブランケット(毛皮)',   55],
-    ['quilt',            'キルトケット',         40],
-    ['quilt_patchwork',  'キルトケット(羊毛)',   50],
+    'sheet',
+    'blanket',
+    'down_blanket',
+    'fur_blanket',
+    'quilt',
+    'quilt_patchwork',
 ]
 
+# 素材のデータを読み込む
+with open('data/json/items/generic/bedding.json') as f:
+    bedding = json.load(f)
 
 data = []
 
-for bid, name, enc in compos:
+for bid in compos:
+    # 素材データ
+    mat = next((b for b in bedding if b['id'] == bid), None)
+    name = gt.ngettext(mat['name']['str'], None, 1)  # gettextで和名
+    encumbrance = mat['armor'][0]['encumbrance']
     # フード
     hood = {
         "id": f"{hood_prefix}_{bid}",
@@ -33,7 +42,7 @@ for bid, name, enc in compos:
         "description": f"{name}で作った簡易フードです。嵩張りますが暖かいです。",
         "armor": [
             {
-                "encumbrance": enc,
+                "encumbrance": encumbrance,
                 "coverage": 100,
                 "covers": ["head", "mouth"]
             }
