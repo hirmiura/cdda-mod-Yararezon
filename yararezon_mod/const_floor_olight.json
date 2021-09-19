@@ -11,6 +11,44 @@
   },
   {
     "type": "construction",
+    "id": "constr_t_thconc_y_olight",
+    "group": "build_floor_olight",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 4 ], [ "electronics", 4 ] ],
+    "time": "30 m",
+    "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "components": [
+      [ [ "betavoltaic", 2 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "cable", 2 ] ],
+      [ [ "light_bulb", 1 ], [ "e_scrap", 1 ] ],
+      [ [ "plastic_chunk", 1 ] ]
+    ],
+    "pre_terrain": "t_thconc_y",
+    "post_terrain": "t_thconc_y_olight"
+  },
+  {
+    "type": "construction",
+    "id": "constr_remove_t_thconc_y_olight",
+    "group": "remove_floor_olight",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 4 ], [ "electronics", 4 ] ],
+    "time": "30 m",
+    "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "byproducts": [
+      { "item": "betavoltaic", "count": [ 2, 2 ] },
+      { "item": "power_supply", "count": [ 1, 1 ] },
+      { "item": "cable", "charges": [ 2, 2 ] },
+      { "item": "e_scrap", "count": [ 1, 1 ] },
+      { "item": "plastic_chunk", "count": [ 1, 1 ] }
+    ],
+    "pre_terrain": "t_thconc_y_olight",
+    "post_terrain": "t_thconc_y"
+  },
+  {
+    "type": "construction",
     "id": "constr_t_thconc_floor_olight",
     "group": "build_floor_olight",
     "category": "CONSTRUCT",
@@ -198,5 +236,43 @@
     ],
     "pre_terrain": "t_linoleum_gray_floor_olight",
     "post_terrain": "t_linoleum_gray"
+  },
+  {
+    "type": "construction",
+    "id": "constr_t_linoleum_whitefloor_olight",
+    "group": "build_floor_olight",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 4 ], [ "electronics", 4 ] ],
+    "time": "30 m",
+    "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "components": [
+      [ [ "betavoltaic", 2 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "cable", 2 ] ],
+      [ [ "light_bulb", 1 ], [ "e_scrap", 1 ] ],
+      [ [ "plastic_chunk", 1 ] ]
+    ],
+    "pre_terrain": "t_linoleum_white",
+    "post_terrain": "t_linoleum_whitefloor_olight"
+  },
+  {
+    "type": "construction",
+    "id": "constr_remove_t_linoleum_whitefloor_olight",
+    "group": "remove_floor_olight",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 4 ], [ "electronics", 4 ] ],
+    "time": "30 m",
+    "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ] ],
+    "byproducts": [
+      { "item": "betavoltaic", "count": [ 2, 2 ] },
+      { "item": "power_supply", "count": [ 1, 1 ] },
+      { "item": "cable", "charges": [ 2, 2 ] },
+      { "item": "e_scrap", "count": [ 1, 1 ] },
+      { "item": "plastic_chunk", "count": [ 1, 1 ] }
+    ],
+    "pre_terrain": "t_linoleum_whitefloor_olight",
+    "post_terrain": "t_linoleum_white"
   }
 ]
