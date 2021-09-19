@@ -10,11 +10,16 @@
 ## [const_floor_olight.json](const_floor_olight.json)
 * 天井灯を建設/除去できるようにします。
 * 以下の床に対応しています。
-  - コンクリート (t_thconc_floor_olight)
-  - 木 (t_floor_olight)
-  - 金属 t_metal_floor_olight)
-  - 強化コンクリート (t_strconc_floor_olight)
-  - リノリウム (t_linoleum_gray_floor_olight)
+
+| id                           | 素材             |
+| ---------------------------- | ---------------- |
+| t_thconc_floor_olight        | コンクリート     |
+| t_floor_olight               | 木               |
+| t_metal_floor_olight         | 金属             |
+| t_thconc_y_olight            | コンクリート     |
+| t_strconc_floor_olight       | 強化コンクリート |
+| t_linoleum_gray_floor_olight | リノリウム       |
+| t_linoleum_whitefloor_olight | リノリウム       |
 
 
 ## [makeshift_hood.json](makeshift_hood.json)
