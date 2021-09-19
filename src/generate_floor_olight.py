@@ -7,43 +7,55 @@ import sys
 # MSYS2での文字化け対策
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
+# プレフィックス & サフィックス
+build_prefix = 'build_'
+remove_prefix = 'remove_'
+const_prefix = 'constr_'
+olight_suffix = '_olight'
 
-build_prefix = 'build'
-remove_prefix = 'remove'
-const_prefix = 'constr'
-olight_suffix = 'olight'
+# 素材のデータを読み込む
+with open('data/json/furniture_and_terrain/terrain-floors-indoor.json') as f:
+    olid = json.load(f)
 
-#    Pre_Terrain         Post_Terrain                    Name
-floors = [
-    ['t_thconc_floor',   '{pre}_{olight_suffix}',        'コンクリート'],
-    ['t_floor',          '{pre}_{olight_suffix}',        '木'],
-    ['t_metal_floor',    '{pre}_{olight_suffix}',        '金属'],
-    ['t_strconc_floor',  '{pre}_{olight_suffix}',        '強化コンクリート'],
-    ['t_linoleum_gray',  '{pre}_floor_{olight_suffix}',  'リノリウム']
-]
+# id索引の辞書にする
+tfi_dict = {
+    item['id']: item for item in olid
+}
 
+# olightのみ抜き出す
+tfi_ol_dict = {
+    key: tfi_dict[key] for key in tfi_dict if key.endswith(olight_suffix)
+}
 
+# 出力用データ
 data = []
 cg_build = {
     "type": "construction_group",
-    "id": f"{build_prefix}_floor_{olight_suffix}",
+    "id": f"{build_prefix}floor{olight_suffix}",
     "name": "天井灯を設置する"
 }
 data.append(cg_build)
 cg_remove = {
     "type": "construction_group",
-    "id": f"{remove_prefix}_floor_{olight_suffix}",
+    "id": f"{remove_prefix}floor{olight_suffix}",
     "name": "天井灯を除去する"
 }
 data.append(cg_remove)
 
-for preid, postid, fname in floors:
-    # 前処理
-    postid = postid.format(pre=preid, olight_suffix=olight_suffix)
+for olid in tfi_ol_dict:
+    # ID処理
+    postid = olid
+    # リノリウムは例外処理する
+    if postid == 't_linoleum_gray_floor_olight':
+        preid = 't_linoleum_gray'
+    elif postid == 't_linoleum_whitefloor_olight':
+        preid = 't_linoleum_white'
+    else:
+        preid = postid[:-len(olight_suffix)]
     # 設置
     const_build = {
         "type": "construction",
-        "id": f"{const_prefix}_{postid}",
+        "id": f"{const_prefix}{postid}",
         "group": cg_build["id"],
         "category": "CONSTRUCT",
         "required_skills": [
@@ -72,7 +84,7 @@ for preid, postid, fname in floors:
     # 除去
     const_remove = {
         "type": "construction",
-        "id": f"{const_prefix}_{remove_prefix}_{postid}",
+        "id": f"{const_prefix}{remove_prefix}{postid}",
         "group": cg_remove["id"],
         "category": "CONSTRUCT",
         "required_skills": [
