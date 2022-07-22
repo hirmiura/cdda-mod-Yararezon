@@ -47,6 +47,10 @@
 * ARピストルに関連して、負い紐をハンドガン対応に変更します。
 
 
+## [stackable_sheet.json](stackable_sheet.json)
+* 生地類をスタックできるように変更します。
+
+
 ## [wearable_cooler.json](wearable_cooler.json)
 * 小型の着るクーラーと、その原子力版を追加します。
 * ハンディファンMODの改造です。
