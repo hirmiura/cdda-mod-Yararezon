@@ -1,0 +1,122 @@
+[
+  {
+    "id": "t_railroad_track",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_d",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_d",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_d1",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_d1",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_d2",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_d2",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_d_on_tie",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_d_on_tie",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_h",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_h",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_h_on_tie",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_h_on_tie",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_on_tie",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_on_tie",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_small",
+    "type": "terrain",
+    "name": "small railroad track",
+    "symbol": "=",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_small",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_small_d",
+    "type": "terrain",
+    "name": "small railroad track",
+    "symbol": "=",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_small_d",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_v",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_v",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  },
+  {
+    "id": "t_railroad_track_v_on_tie",
+    "type": "terrain",
+    "name": "railroad track",
+    "symbol": "X",
+    "color": "cyan",
+    "connects_to": "RAIL",
+    "copy-from": "t_railroad_track_v_on_tie",
+    "flags": [ "RAIL", "TRANSPARENT", "NOCOLLIDE" ]
+  }
+]

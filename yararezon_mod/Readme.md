@@ -34,6 +34,10 @@
   - キルトケット(羊毛) (quilt_patchwork)
 
 
+## [no_collide_rail.json](no_collide_rail.json)
+鉄道レールが車両と衝突しないように変更します。
+
+
 ## [no_zombie_revivification.json](no_zombie_revivification.json)
 * ゾンビが復活しないようにします。
 
