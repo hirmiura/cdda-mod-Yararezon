@@ -18,6 +18,7 @@ file_list = [
     'data/json/items/generic/bedding.json',
     'data/json/furniture_and_terrain/terrain-floors-indoor.json',
     'data/json/items/resources/tailoring.json',
+    'data/json/furniture_and_terrain/terrain-railroads.json',
 ]
 
 # ファイルをコピーする
