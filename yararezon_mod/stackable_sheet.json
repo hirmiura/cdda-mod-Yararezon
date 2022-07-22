@@ -1,0 +1,121 @@
+[
+  {
+    "id": "sheet_leather_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork leather sheet" },
+    "copy-from": "sheet_leather_patchwork",
+    "stackable": true
+  },
+  {
+    "id": "sheet_fur_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork fur sheet" },
+    "copy-from": "sheet_fur_patchwork",
+    "stackable": true
+  },
+  {
+    "id": "sheet_cotton",
+    "type": "GENERIC",
+    "name": { "str": "cotton sheet" },
+    "copy-from": "sheet_cotton",
+    "stackable": true
+  },
+  {
+    "id": "sheet_cotton_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork cotton sheet" },
+    "copy-from": "sheet_cotton_patchwork",
+    "stackable": true
+  },
+  {
+    "id": "sheet_faux_fur",
+    "type": "GENERIC",
+    "name": { "str": "faux fur sheet" },
+    "copy-from": "sheet_faux_fur",
+    "stackable": true
+  },
+  {
+    "id": "sheet_faux_fur_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork faux fur sheet" },
+    "copy-from": "sheet_faux_fur_patchwork",
+    "stackable": true
+  },
+  {
+    "id": "sheet_felt",
+    "type": "GENERIC",
+    "name": { "str": "felt sheet" },
+    "copy-from": "sheet_felt",
+    "stackable": true
+  },
+  {
+    "id": "sheet_felt_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork felt sheet" },
+    "copy-from": "sheet_felt_patchwork",
+    "stackable": true
+  },
+  {
+    "id": "sheet_kevlar",
+    "type": "GENERIC",
+    "name": { "str": "Kevlar sheet" },
+    "copy-from": "sheet_kevlar",
+    "stackable": true
+  },
+  {
+    "id": "sheet_lycra",
+    "type": "GENERIC",
+    "name": { "str": "Lycra sheet" },
+    "copy-from": "sheet_lycra",
+    "stackable": true
+  },
+  {
+    "id": "sheet_lycra_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork Lycra sheet" },
+    "copy-from": "sheet_lycra_patchwork",
+    "stackable": true
+  },
+  {
+    "id": "sheet_neoprene",
+    "type": "GENERIC",
+    "name": { "str": "neoprene sheet" },
+    "copy-from": "sheet_neoprene",
+    "stackable": true
+  },
+  {
+    "id": "sheet_neoprene_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork neoprene sheet" },
+    "copy-from": "sheet_neoprene_patchwork",
+    "stackable": true
+  },
+  {
+    "id": "sheet_nomex",
+    "type": "GENERIC",
+    "name": { "str": "Nomex sheet" },
+    "copy-from": "sheet_nomex",
+    "stackable": true
+  },
+  {
+    "id": "sheet_nomex_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork Nomex sheet" },
+    "copy-from": "sheet_nomex_patchwork",
+    "stackable": true
+  },
+  {
+    "id": "sheet_nylon",
+    "type": "GENERIC",
+    "name": { "str": "synthetic fabric sheet" },
+    "copy-from": "sheet_nylon",
+    "stackable": true
+  },
+  {
+    "id": "sheet_nylon_patchwork",
+    "type": "GENERIC",
+    "name": { "str_sp": "patchwork synthetic fabric sheet" },
+    "copy-from": "sheet_nylon_patchwork",
+    "stackable": true
+  }
+]
