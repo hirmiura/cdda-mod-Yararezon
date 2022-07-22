@@ -32,9 +32,8 @@ data = []
 for r in rails:
     # 上書きデータ作成
     item = {}
-    item['id'] = r['id']
-    item['type'] = r['type']
-    item['name'] = r['name']
+    for k in ['id', 'type', 'name', 'symbol', 'color']:
+        item[k] = r[k]
     item['copy-from'] = r['id']
     item['flags'] = r['flags']
     item['flags'].append('NOCOLLIDE')
