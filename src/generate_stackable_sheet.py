@@ -13,7 +13,7 @@ except_id_list = [
     'sheet_kevlar_layered',  # セーブファイル読み込み時にクラッシュする
 ]
 
-# 素材のデータを読み込む
+# 生地のデータを読み込む
 with open('data/json/items/resources/tailoring.json') as f:
     tailoring = json.load(f)
 
