@@ -24,6 +24,9 @@ yararezon_mod/makeshift_hood.json:
 yararezon_mod/stackable_sheet.json: data/json/items/resources/tailoring.json src/generate_stackable_sheet.py
 	src/generate_stackable_sheet.py | $(CDDA_JSON_FORMATTER) > $@
 
+yararezon_mod/no_collide_rail.json: data/json/furniture_and_terrain/terrain-railroads.json src/generate_no_collide_rail.py
+	src/generate_no_collide_rail.py | $(CDDA_JSON_FORMATTER) > $@
+
 
 # JSON整形
 format lint: format-mod format-preset
