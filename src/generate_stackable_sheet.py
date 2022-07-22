@@ -13,7 +13,7 @@ except_id_list = [
     'sheet_kevlar_layered',  # セーブファイル読み込み時にクラッシュする
 ]
 
-# 素材のデータを読み込む
+# 生地のデータを読み込む
 with open('data/json/items/resources/tailoring.json') as f:
     tailoring = json.load(f)
 
@@ -40,6 +40,8 @@ for s in sheets:
     item['stackable'] = True
     data.append(item)
 
+# IDでソートする
+data.sort(key=lambda item: item['id'])
 
 # ダンプ
 json_text = json.dumps(data, ensure_ascii=False)

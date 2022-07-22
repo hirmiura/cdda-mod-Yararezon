@@ -1,19 +1,5 @@
 [
   {
-    "id": "sheet_leather_patchwork",
-    "type": "GENERIC",
-    "name": { "str": "patchwork leather sheet" },
-    "copy-from": "sheet_leather_patchwork",
-    "stackable": true
-  },
-  {
-    "id": "sheet_fur_patchwork",
-    "type": "GENERIC",
-    "name": { "str": "patchwork fur sheet" },
-    "copy-from": "sheet_fur_patchwork",
-    "stackable": true
-  },
-  {
     "id": "sheet_cotton",
     "type": "GENERIC",
     "name": { "str": "cotton sheet" },
@@ -56,10 +42,24 @@
     "stackable": true
   },
   {
+    "id": "sheet_fur_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork fur sheet" },
+    "copy-from": "sheet_fur_patchwork",
+    "stackable": true
+  },
+  {
     "id": "sheet_kevlar",
     "type": "GENERIC",
     "name": { "str": "Kevlar sheet" },
     "copy-from": "sheet_kevlar",
+    "stackable": true
+  },
+  {
+    "id": "sheet_leather_patchwork",
+    "type": "GENERIC",
+    "name": { "str": "patchwork leather sheet" },
+    "copy-from": "sheet_leather_patchwork",
     "stackable": true
   },
   {
