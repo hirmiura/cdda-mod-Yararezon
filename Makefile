@@ -13,13 +13,16 @@ copy-data:
 
 
 # JSON生成
-generate: yararezon_mod/const_floor_olight.json yararezon_mod/makeshift_hood.json
+generate: yararezon_mod/const_floor_olight.json yararezon_mod/makeshift_hood.json yararezon_mod/stackable_sheet.json
 
 yararezon_mod/const_floor_olight.json:
 	src/generate_floor_olight.py | $(CDDA_JSON_FORMATTER) > $@
 
 yararezon_mod/makeshift_hood.json:
 	src/generate_makeshift_hood.py | $(CDDA_JSON_FORMATTER) > $@
+
+yararezon_mod/stackable_sheet.json: data/json/items/resources/tailoring.json src/generate_stackable_sheet.py
+	src/generate_stackable_sheet.py | $(CDDA_JSON_FORMATTER) > $@
 
 
 # JSON整形
