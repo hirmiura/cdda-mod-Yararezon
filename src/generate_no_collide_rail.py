@@ -32,7 +32,7 @@ data = []
 for r in rails:
     # 上書きデータ作成
     item = {}
-    for k in ['id', 'type', 'name', 'symbol', 'color']:
+    for k in ['id', 'type', 'name', 'symbol', 'color', 'connects_to']:
         item[k] = r[k]
     item['copy-from'] = r['id']
     item['flags'] = r['flags']
