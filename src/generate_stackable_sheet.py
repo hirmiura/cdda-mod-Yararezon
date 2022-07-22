@@ -40,6 +40,8 @@ for s in sheets:
     item['stackable'] = True
     data.append(item)
 
+# IDでソートする
+data.sort(key=lambda item: item['id'])
 
 # ダンプ
 json_text = json.dumps(data, ensure_ascii=False)
