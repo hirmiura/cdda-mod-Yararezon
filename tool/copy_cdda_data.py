@@ -17,6 +17,7 @@ file_list = [
     'lang/mo/ja/LC_MESSAGES/cataclysm-dda.mo',
     'data/json/items/generic/bedding.json',
     'data/json/furniture_and_terrain/terrain-floors-indoor.json',
+    'data/json/items/resources/tailoring.json',
 ]
 
 # ファイルをコピーする
