@@ -5,5 +5,20 @@
     "name": { "str": "chemistry set" },
     "copy-from": "chemistry_set",
     "extend": { "flags": ["ALLOWS_REMOTE_USE"] }
+  },
+  {
+    "id": "atomic_coffeepot",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "atomic coffee maker" },
+    "copy-from": "atomic_coffeepot",
+    "extend": { "flags": ["ALLOWS_REMOTE_USE"] }
+  },
+  {
+    "id": "coffeemaker",
+    "type": "TOOL",
+    "name": { "str": "coffeemaker" },
+    "copy-from": "coffeemaker",
+    "extend": { "flags": ["ALLOWS_REMOTE_USE"] }
   }
 ]
