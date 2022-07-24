@@ -1,0 +1,9 @@
+[
+  {
+    "id": "chemistry_set",
+    "type": "TOOL",
+    "name": { "str": "chemistry set" },
+    "copy-from": "chemistry_set",
+    "extend": { "flags": ["ALLOWS_REMOTE_USE"] }
+  }
+]
