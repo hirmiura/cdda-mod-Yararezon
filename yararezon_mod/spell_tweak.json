@@ -1,0 +1,9 @@
+[
+  {
+    "id": "magic_missile",
+    "type": "SPELL",
+    "name": "Magic Missile",
+    "copy-from": "magic_missile",
+    "extend": { "valid_targets": [ "ground" ] }
+  }
+]
