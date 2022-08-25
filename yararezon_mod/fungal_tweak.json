@@ -1,0 +1,24 @@
+[
+  {
+    "id": "mon_fungal_blossom",
+    "copy-from": "mon_fungal_blossom",
+    "type": "MONSTER",
+    "name": { "str": "fungal blossom" },
+    "delete": { "special_attacks": [ "FUNGUS_HAZE" ] }
+  },
+  {
+    "id": "mon_spore",
+    "copy-from": "mon_spore",
+    "type": "MONSTER",
+    "name": { "str": "spore cloud" },
+    "delete": { "special_attacks": [ "PLANT" ] },
+    "special_attacks": [ [ "DISAPPEAR", 10 ] ]
+  },
+  {
+    "id": "mon_spider_fungus",
+    "copy-from": "mon_spider_fungus",
+    "type": "MONSTER",
+    "name": { "str": "fungal spider" },
+    "delete": { "special_attacks": [ "FUNGAL_TRAIL" ] }
+  }
+]
