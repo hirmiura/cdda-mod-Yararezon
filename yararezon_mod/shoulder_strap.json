@@ -1,9 +1,0 @@
-[
-  {
-    "id": "shoulder_strap",
-    "copy-from": "shoulder_strap",
-    "type": "GUNMOD",
-    "name": { "str": "shoulder strap" },
-    "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher", "pistol" ]
-  }
-]
