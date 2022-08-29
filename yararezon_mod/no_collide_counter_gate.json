@@ -1,0 +1,12 @@
+[
+  {
+    "id": "f_counter_gate_o",
+    "type": "furniture",
+    "name": "open counter gate",
+    "symbol": ".",
+    "color": "blue",
+    "connects_to": "COUNTER",
+    "copy-from": "f_counter_gate_o",
+    "extend": { "flags": ["NOCOLLIDE"] }
+  }
+]
