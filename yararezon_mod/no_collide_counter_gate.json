@@ -7,6 +7,6 @@
     "color": "blue",
     "connects_to": "COUNTER",
     "copy-from": "f_counter_gate_o",
-    "extend": { "flags": ["NOCOLLIDE"] }
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "FLAT", "ROAD", "ORGANIC", "NOCOLLIDE" ]
   }
 ]
