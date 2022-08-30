@@ -38,6 +38,10 @@
   - キルトケット(羊毛) (quilt_patchwork)
 
 
+## [no_collide_counter_gate.json](no_collide_counter_gate.json)
+* カウンタードアがカート等の車両と衝突しないように変更します。
+
+
 ## [no_collide_rail.json](no_collide_rail.json)
 * 鉄道レールが車両と衝突しないように変更します。
 
