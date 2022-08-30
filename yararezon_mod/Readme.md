@@ -3,10 +3,6 @@
 個別に分けていないのは、プレイ中に追加/変更/削除が容易な為です。
 
 
-## [ar_pistol.json](ar_pistol.json)
-* ARピストルにストラップを付けられるようにします。
-
-
 ## [const_floor_olight.json](const_floor_olight.json)
 * 天井灯を建設/除去できるようにします。
 * 以下の床に対応しています。
@@ -45,10 +41,6 @@
 ## [shotcestus.json](shotcestus.json)
 * Magiclysmのショットセスタスが、弾丸を込めても容積が変わらないように変更します。
 * 弾を込めた状態でも、XLホルスターに収まるようになります。
-
-
-## [shoulder_strap.json](shoulder_strap.json)
-* ARピストルに関連して、負い紐をハンドガン対応に変更します。
 
 
 ## [stackable_sheet.json](stackable_sheet.json)
