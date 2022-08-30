@@ -22,6 +22,10 @@
 | t_linoleum_whitefloor_olight | リノリウム       |
 
 
+## [fungal_tweak.json](fungal_tweak.json)
+真菌の増殖を抑制します。
+
+
 ## [makeshift_hood.json](makeshift_hood.json)
 * シーツ等を使った簡易フードとレシピを追加します。
 * 低温研究所スタートで頭が凍傷になっても頭に布を巻くことをしない＠さん。
