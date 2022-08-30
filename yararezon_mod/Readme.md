@@ -4,7 +4,7 @@
 
 
 ## [allows_remote_use.json](allows_remote_use.json)
-道具を離れた場所から使えるようにします。
+* 道具を離れた場所から使えるようにします。
 
 
 ## [const_floor_olight.json](const_floor_olight.json)
@@ -23,7 +23,7 @@
 
 
 ## [fungal_tweak.json](fungal_tweak.json)
-真菌の増殖を抑制します。
+* 真菌の増殖を抑制します。
 
 
 ## [makeshift_hood.json](makeshift_hood.json)
