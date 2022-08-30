@@ -1,9 +1,219 @@
 [
   {
+    "id": "smite",
+    "type": "SPELL",
+    "name": "Smite",
+    "copy-from": "smite",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "necrotic_gaze",
+    "type": "SPELL",
+    "name": "Necrotic Gaze",
+    "copy-from": "necrotic_gaze",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "disruption_bolt",
+    "type": "SPELL",
+    "name": "Disruption Bolt",
+    "copy-from": "disruption_bolt",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "banishment_lesser",
+    "type": "SPELL",
+    "name": "Lesser Banishment",
+    "copy-from": "banishment_lesser",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "bleed",
+    "type": "SPELL",
+    "name": "Bleed",
+    "copy-from": "bleed",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "rupture",
+    "type": "SPELL",
+    "name": "Rupture",
+    "copy-from": "rupture",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "banishment_greater",
+    "type": "SPELL",
+    "name": "Greater Banishment",
+    "copy-from": "banishment_greater",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "flareup",
+    "type": "SPELL",
+    "name": "Flareup",
+    "copy-from": "flareup",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "golem_push",
+    "type": "SPELL",
+    "name": "Golem Push",
+    "copy-from": "golem_push",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "cold_heart",
+    "type": "SPELL",
+    "name": "Cold Heart",
+    "copy-from": "cold_heart",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "spear_of_light",
+    "type": "SPELL",
+    "name": "Spear of Light",
+    "copy-from": "spear_of_light",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "burn_at_both_ends",
+    "type": "SPELL",
+    "name": "Burn at Both Ends",
+    "copy-from": "burn_at_both_ends",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "storm_chain_master",
+    "type": "SPELL",
+    "name": "Storm Chain",
+    "copy-from": "storm_chain_master",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "cold_snap",
+    "type": "SPELL",
+    "name": "Cold Snap",
+    "copy-from": "cold_snap",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "voidmage_final_grasp",
+    "type": "SPELL",
+    "name": "Final Grasp",
+    "copy-from": "voidmage_final_grasp",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "assassin_strike",
+    "type": "SPELL",
+    "name": "Assassin Strike",
+    "copy-from": "assassin_strike",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "acid_bite",
+    "type": "SPELL",
+    "name": "Acid Bite",
+    "copy-from": "acid_bite",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "dragon_spit_acid",
+    "type": "SPELL",
+    "name": "Dragon Acid Spit",
+    "copy-from": "dragon_spit_acid",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "blinding_flash",
+    "type": "SPELL",
+    "name": { "str": "Blinding Flash" },
+    "copy-from": "blinding_flash",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "ethereal_grasp",
+    "type": "SPELL",
+    "name": "Ethereal Grasp",
+    "copy-from": "ethereal_grasp",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "druid_woodshaft",
+    "type": "SPELL",
+    "name": "Wooden Shaft",
+    "copy-from": "druid_woodshaft",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "eshaper_piercing_bolt",
+    "type": "SPELL",
+    "name": "Piercing Bolt",
+    "copy-from": "eshaper_piercing_bolt",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "point_flare",
+    "type": "SPELL",
+    "name": "Point Flare",
+    "copy-from": "point_flare",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "nova_flare",
+    "type": "SPELL",
+    "name": "Nova Flare",
+    "copy-from": "nova_flare",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "ice_spike",
+    "type": "SPELL",
+    "name": "Ice Spike",
+    "copy-from": "ice_spike",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "chilling_touch",
+    "type": "SPELL",
+    "name": "Chilling Touch",
+    "copy-from": "chilling_touch",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "freezing_touch",
+    "type": "SPELL",
+    "name": "Freezing Touch",
+    "copy-from": "freezing_touch",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
     "id": "magic_missile",
     "type": "SPELL",
     "name": "Magic Missile",
     "copy-from": "magic_missile",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "magus_mana_bolt",
+    "type": "SPELL",
+    "name": "Mana Bolt",
+    "copy-from": "magus_mana_bolt",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "magus_baleful_polymorph",
+    "type": "SPELL",
+    "name": "Baleful Polymorph",
+    "copy-from": "magus_baleful_polymorph",
+    "extend": { "valid_targets": [ "ground" ] }
+  },
+  {
+    "id": "shocking_lash_base",
+    "type": "SPELL",
+    "name": "Shocking Lash Base",
+    "copy-from": "shocking_lash_base",
     "extend": { "valid_targets": [ "ground" ] }
   }
 ]
