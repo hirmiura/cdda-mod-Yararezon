@@ -7,12 +7,12 @@
     "color": "light_gray",
     "name": "ウェアラブルクーラー",
     "description": "5ONY社が開発した着るクーラーです。電力を使って周囲を冷却します。",
-    "flags": [ "ALLOWS_REMOTE_USE", "WATER_BREAK_ACTIVE" ],
+    "flags": ["ALLOWS_REMOTE_USE", "WATER_BREAK_ACTIVE"],
     "weight": "100 g",
     "volume": "150 ml",
     "price": 9800,
     "price_postapoc": 4800,
-    "material": [ "plastic", "steel" ],
+    "material": ["plastic", "steel"],
     "ammo": "battery",
     "use_action": {
       "type": "transform",
@@ -29,7 +29,7 @@
       {
         "pocket_type": "MAGAZINE_WELL",
         "rigid": true,
-        "flag_restriction": [ "BATTERY_LIGHT" ],
+        "flag_restriction": ["BATTERY_LIGHT"],
         "default_magazine": "light_plus_battery_cell"
       }
     ],
@@ -41,9 +41,9 @@
     "repairs_like": "wearable_cooler",
     "type": "TOOL_ARMOR",
     "name": "ウェアラブルクーラー(オン)",
-    "emits": [ "emit_cold_air_weak_stream" ],
-    "flags": [ "ALLOWS_REMOTE_USE", "WATER_BREAK_ACTIVE", "TRADER_AVOID" ],
-    "power_draw": 7000,
+    "emits": ["emit_cold_air_weak_stream"],
+    "flags": ["ALLOWS_REMOTE_USE", "WATER_BREAK_ACTIVE", "TRADER_AVOID"],
+    "power_draw": "7 J",
     "revert_to": "wearable_cooler",
     "use_action": {
       "ammo_scale": 0,
@@ -61,12 +61,12 @@
     "color": "light_gray",
     "name": "アトミックウェアラブルクーラー",
     "description": "5ONY社が開発した着るクーラーです。Rivtech社とのコラボレーショにより、放射性崩壊から取り出した電力を使って周囲を冷却します。",
-    "flags": [ "ALLOWS_REMOTE_USE", "WATER_BREAK_ACTIVE", "LEAK_DAM", "RADIOACTIVE", "NO_UNLOAD", "NO_RELOAD" ],
+    "flags": ["ALLOWS_REMOTE_USE", "WATER_BREAK_ACTIVE", "LEAK_DAM", "RADIOACTIVE", "NO_UNLOAD", "NO_RELOAD"],
     "weight": "120 g",
     "volume": "200 ml",
     "price": 200000,
     "price_postapoc": 14800,
-    "material": [ "plastic", "steel" ],
+    "material": ["plastic", "steel"],
     "ammo": "battery",
     "use_action": {
       "type": "transform",
@@ -85,8 +85,16 @@
     "repairs_like": "atomic_wearable_cooler",
     "type": "TOOL_ARMOR",
     "name": "アトミックウェアラブルクーラー(オン)",
-    "emits": [ "emit_cold_air_weak_stream" ],
-    "flags": [ "ALLOWS_REMOTE_USE", "WATER_BREAK_ACTIVE", "LEAK_DAM", "RADIOACTIVE", "NO_UNLOAD", "NO_RELOAD", "TRADER_AVOID" ],
+    "emits": ["emit_cold_air_weak_stream"],
+    "flags": [
+      "ALLOWS_REMOTE_USE",
+      "WATER_BREAK_ACTIVE",
+      "LEAK_DAM",
+      "RADIOACTIVE",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "TRADER_AVOID"
+    ],
     "revert_to": "atomic_wearable_cooler",
     "use_action": {
       "ammo_scale": 0,
@@ -99,7 +107,7 @@
   {
     "id": "fd_cold_breezes",
     "type": "field_type",
-    "intensity_levels": [ { "name": "冷風", "sym": "&", "convection_temperature_mod": -10 } ],
+    "intensity_levels": [{ "name": "冷風", "sym": "&", "convection_temperature_mod": -10 }],
     "decay_amount_factor": 5,
     "percent_spread": 100,
     "outdoor_age_speedup": "10 minutes",
@@ -122,21 +130,27 @@
     "subcategory": "CSC_ELECTRONIC_TOOLS",
     "skill_used": "electronics",
     "difficulty": 4,
-    "skills_required": [ "fabrication", 3 ],
+    "skills_required": ["fabrication", 3],
     "time": "30 m",
     "reversible": true,
     "autolearn": false,
-    "book_learn": [ [ "advanced_electronics", 2 ], [ "textbook_electronics", 3 ] ],
-    "using": [ [ "soldering_standard", 10 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "book_learn": [
+      ["advanced_electronics", 2],
+      ["textbook_electronics", 3]
+    ],
+    "using": [["soldering_standard", 10]],
+    "qualities": [
+      { "id": "SCREW", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
+    ],
     "components": [
-      [ [ "processor", 1 ] ],
-      [ [ "RAM", 1 ] ],
-      [ [ "circuit", 1 ] ],
-      [ [ "e_scrap", 2 ] ],
-      [ [ "scrap", 1 ] ],
-      [ [ "cable", 1 ] ],
-      [ [ "plastic_chunk", 2 ] ]
+      [["processor", 1]],
+      [["RAM", 1]],
+      [["circuit", 1]],
+      [["e_scrap", 2]],
+      [["scrap", 1]],
+      [["cable", 1]],
+      [["plastic_chunk", 2]]
     ]
   },
   {
@@ -146,20 +160,26 @@
     "subcategory": "CSC_ELECTRONIC_TOOLS",
     "skill_used": "electronics",
     "difficulty": 5,
-    "skills_required": [ "fabrication", 4 ],
+    "skills_required": ["fabrication", 4],
     "time": "30 m",
     "reversible": true,
     "autolearn": false,
-    "book_learn": [ [ "recipe_caseless", 5 ], [ "textbook_atomic_lab", 5 ] ],
-    "using": [ [ "soldering_standard", 10 ] ],
-    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "book_learn": [
+      ["recipe_caseless", 5],
+      ["textbook_atomic_lab", 5]
+    ],
+    "using": [["soldering_standard", 10]],
+    "qualities": [
+      { "id": "SCREW", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
+    ],
     "components": [
-      [ [ "wearable_cooler", 1 ] ],
-      [ [ "power_supply", 1 ] ],
-      [ [ "plut_cell", 1 ] ],
-      [ [ "e_scrap", 1 ] ],
-      [ [ "scrap", 1 ] ],
-      [ [ "plastic_chunk", 1 ] ]
+      [["wearable_cooler", 1]],
+      [["power_supply", 1]],
+      [["plut_cell", 1]],
+      [["e_scrap", 1]],
+      [["scrap", 1]],
+      [["plastic_chunk", 1]]
     ]
   }
 ]
