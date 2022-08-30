@@ -3,6 +3,10 @@
 個別に分けていないのは、プレイ中に追加/変更/削除が容易な為です。
 
 
+## [allows_remote_use.json](allows_remote_use.json)
+道具を離れた場所から使えるようにします。
+
+
 ## [const_floor_olight.json](const_floor_olight.json)
 * 天井灯を建設/除去できるようにします。
 * 以下の床に対応しています。
