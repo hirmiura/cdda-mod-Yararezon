@@ -55,6 +55,11 @@
 * 弾を込めた状態でも、XLホルスターに収まるようになります。
 
 
+## [spell_tweak.json](spell_tweak.json)
+* 一部の魔法を地面指定で撃てるようにします。
+* スキル上げが楽になります。
+
+
 ## [stackable_sheet.json](stackable_sheet.json)
 * 生地類をスタックできるように変更します。
 
