@@ -351,3 +351,7 @@ MigrationBackup/
 
 # VSCode
 .vscode/
+
+# npm
+package-lock.json
+package.json
