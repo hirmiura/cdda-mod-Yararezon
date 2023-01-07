@@ -43,7 +43,7 @@
     "name": "ウェアラブルクーラー(オン)",
     "emits": [ "emit_cold_air_weak_stream" ],
     "flags": [ "ALLOWS_REMOTE_USE", "WATER_BREAK_ACTIVE", "TRADER_AVOID" ],
-    "power_draw": "7 J",
+    "power_draw": "7 W",
     "revert_to": "wearable_cooler",
     "use_action": {
       "ammo_scale": 0,
